@@ -4,8 +4,8 @@ import Footer from '../../components/Footer'
 import HeaderBar from '../../components/HeaderBar'
 import ProductCard from '../../components/ProductCard'
 import ProductModal from '../../components/ProductModal'
-import products from '../../data/products'
 import restaurants from '../../data/restaurants'
+import products from '../../data/products'
 import {
   Banner,
   BannerContent,
@@ -20,7 +20,7 @@ function Perfil({ cartItems, addToCart }) {
   const [selectedProduct, setSelectedProduct] = useState(null)
 
   const restaurant =
-    restaurants.find((item) => item.id === Number(id)) || restaurants[1]
+    restaurants.find((item) => item.id === Number(id)) || restaurants[0]
 
   const openModal = (product) => {
     setSelectedProduct(product)
@@ -34,7 +34,7 @@ function Perfil({ cartItems, addToCart }) {
     <>
       <HeaderBar cartItems={cartItems} />
 
-      <Banner style={{ backgroundImage: `url(${restaurant.hero})` }}>
+      <Banner style={{ backgroundImage: `url(${restaurant.capa})` }}>
         <div className="container">
           <BannerContent>
             <Category>{restaurant.tipo}</Category>

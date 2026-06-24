@@ -3,55 +3,61 @@ const products = [
     id: 1,
     nome: 'Pizza Margherita',
     foto:
-      'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80',
+      'https://api-ebac.vercel.app/efood/piazza//1.jpg',
     descricao:
-      'A clássica Margherita: molho de tomate artesanal, muçarela de búfala, tomates frescos e manjericão fresco.',
-    preco: 60.9
+      'A Pizza Margherita é uma pizza clássica da culinária italiana, reconhecida por sua simplicidade e sabor inigualável. Ela é feita com uma base de massa fina e crocante, coberta com molho de tomate fresco, queijo muçarela de alta qualidade, manjericão fresco e azeite de oliva extra-virgem.',
+    preco: 60.9,
+    porcao: '1 a 2 pessoas'
   },
   {
     id: 2,
-    nome: 'Pizza Margherita',
+    nome: 'Pizza Quatro Queijos',
     foto:
-      'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80',
+      'https://api-ebac.vercel.app/efood/piazza//2.webp',
     descricao:
-      'A clássica Margherita: molho de tomate artesanal, muçarela de búfala, tomates frescos e manjericão fresco.',
-    preco: 60.9
+      'A Pizza Quatro Queijos é uma combinação irresistível de muçarela, gorgonzola, parmesão e provolone, derretidos harmoniosamente sobre uma massa fina e crocante. Perfeita para os amantes de queijo que desejam uma experiência gastronômica rica e saborosa.',
+    preco: 59.9,
+    porcao: '1 a 2 pessoas'
   },
   {
     id: 3,
-    nome: 'Pizza Margherita',
+    nome: 'Pizza Calabresa',
     foto:
-      'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80',
+      'https://api-ebac.vercel.app/efood/piazza//3.jpg',
     descricao:
-      'A clássica Margherita: molho de tomate artesanal, muçarela de búfala, tomates frescos e manjericão fresco.',
-    preco: 60.9
+      'A Pizza Calabresa é preparada com rodelas de calabresa, cebola roxa fatiada, azeitonas pretas e muçarela derretida. Assada em forno a lenha, é uma escolha perfeita para quem quer uma pizza tradicional e muito saborosa.',
+    preco: 64.9,
+    porcao: '1 a 2 pessoas'
   },
   {
     id: 4,
-    nome: 'Pizza Margherita',
+    nome: 'Ravioli al Tartufo Nero',
     foto:
-      'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80',
+      'https://api-ebac.vercel.app/efood/bella_tavola_italiana//1.webp',
     descricao:
-      'A clássica Margherita: molho de tomate artesanal, muçarela de búfala, tomates frescos e manjericão fresco.',
-    preco: 60.9
+      'O Ravioli al Tartufo Nero é um requintado prato de massa artesanal, recheado com ricota fresca, parmesão e trufas negras raladas. Uma combinação de texturas suaves e aromas intensos, ideal para quem busca uma experiência italiana sofisticada.',
+    preco: 69.9,
+    porcao: '1 a 2 pessoas'
   },
   {
     id: 5,
-    nome: 'Pizza Margherita',
+    nome: 'Spaghetti alla Carbonara',
     foto:
-      'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80',
+      'https://api-ebac.vercel.app/efood/bella_tavola_italiana//2.jpg',
     descricao:
-      'A clássica Margherita: molho de tomate artesanal, muçarela de búfala, tomates frescos e manjericão fresco.',
-    preco: 60.9
+      'O Spaghetti alla Carbonara é um clássico da culinária italiana, feito com massa al dente e um molho cremoso à base de ovos, queijo pecorino romano, pancetta e pimenta-do-reino.',
+    preco: 56.9,
+    porcao: '1 a 2 pessoas'
   },
   {
     id: 6,
-    nome: 'Pizza Margherita',
+    nome: 'Risotto ai Funghi Porcini',
     foto:
-      'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80',
+      'https://api-ebac.vercel.app/efood/bella_tavola_italiana//3.jpg',
     descricao:
-      'A clássica Margherita: molho de tomate artesanal, muçarela de búfala, tomates frescos e manjericão fresco.',
-    preco: 60.9
+      'O Risotto ai Funghi Porcini é preparado com arroz Arborio e cogumelos porcini, cozidos lentamente em caldo de legumes, vinho branco e parmesão, resultando em um prato cremoso e cheio de sabor.',
+    preco: 74.9,
+    porcao: '1 a 2 pessoas'
   }
 ]
 

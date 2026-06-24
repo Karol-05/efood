@@ -30,7 +30,7 @@ function ProductModal({ product, onClose, addToCart }) {
 
           <Description>{product.descricao}</Description>
 
-          <Portion>Serve: de 2 a 3 pessoas</Portion>
+          <Portion>Serve: {product.porcao}</Portion>
 
           <AddButton onClick={handleAddToCart}>
             Adicionar ao carrinho - R${' '}
